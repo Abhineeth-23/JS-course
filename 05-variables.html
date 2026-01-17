@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <title>
-            Javascript Course
-        </title>
-
-        <style>
-            button{
-                color: black;
-                background-color: white;
-            }
-        </style>
+        <title>Variables</title>
     </head>
 
     <body>
-        <h1>Javascript Course</h1>
 
-        <button onclick="alert('Good Job!');"> Click me!</button>
-
+        <h1>Cart Quantity</h1>
         <script>
-            //alert('Hello!');
+            let variable1 = 23;
+            console.log(variable);
 
-            console.log(2+2);
-            console.log("Concat "+"text");
+            let calculation = 2+2;
+            console.log(calculation);
+            console.log(calculation+2);
+
+            let result = calculation +2;
+            console.log(result);
+
+            let message = 'hello';
+            console.log(message); console.log('Hi'); //this works
+
+            variable1 = 69; //dont use let while updating a variable
+            console.log(variable1);
+
+            result = result +1; //self increment
+            console.log(result);
+
+            const variable2 = 3; //constant Variables, cant be changed
+
+            var variable3 = 3; //can be changed later.. has a few issues....
+
+            console.log(typeof variable2); //shows type of the variable value
         </script>
     </body>
 </html>
