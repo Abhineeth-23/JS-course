@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            JavaScript Functions
+        </title>
+    </head>
+    
+    <body>
+        <h1>Functions in JavaScript</h1>
+
+        <script>
+            function f1(){
+                console.log('This is an example of a function');
+            }
+
+            function f2(){
+                console.log('Button Clicked');
+            }
+
+            function f3(){
+                x = 123;
+                y = 456;
+
+                return x+y;
+            }
+
+            let result = f3();
+            
+            function f4(res){
+                console.log('Result of function 3 is: '+res);
+            }
+
+            f1();
+            f2();
+            f4(result);
+        </script>
+    </body>
+</html>
